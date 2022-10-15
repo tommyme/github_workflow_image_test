@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 
-COPY hello.py /work
+COPY hello.py /work/hello.py
 WORKDIR /work
 
 
